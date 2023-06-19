@@ -2,9 +2,9 @@ import os
 from collections import namedtuple
 import pandas as pd  
 
-_PHRASES = "PickTipMultiplexValidation,Pip1,ValidateTip,resistance sensor,"
 _DIRPATH = r'./_PUT_EXECUTED_LOG_FILE_TXT_HERE/'
 _RESULTPATH = './_RESULT/result.csv'
+_PHRASES = "PickTipMultiplexValidation,Pip1,ValidateTip,resistance sensor,"
 _HEADER = ""
 
 def GetLogFilesInFolder(dir_path):
